@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.patient-content{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/004/493/181/small_2x/hospital-building-for-healthcare-background-illustration-with-ambulance-car-doctor-patient-nurses-and-medical-clinic-exterior-free-vector.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    /* margin-top: -1%;  you can give it based on your need when you see space on the top of image or bottom */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+    padding-left: 4%;
+    color: blue;
+}
+button{
+    color: #000;
+    background-color: skyblue;
+}
